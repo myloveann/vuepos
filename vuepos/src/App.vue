@@ -9,28 +9,27 @@
 </template>
 
 <script>
-
-import leftNav from '@/components/common/leftNav'
+import leftNav from "@/components/common/leftNav";
 export default {
-  name: 'app',
-  components:{
+  name: "app",
+  components: {
     leftNav
   }
-}
+};
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
-.main{
+.main {
   float: left;
   width: 95%;
-  background-color:#D0E9FF;
+  background-color: #d0e9ff;
   height: 100%;
   overflow: hidden;
 }
