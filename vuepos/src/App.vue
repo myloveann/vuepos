@@ -30,7 +30,7 @@ export default {
 .main{
   float: left;
   width: 95%;
-  background-color:#3FF2F7;
+  background-color:#D0E9FF;
   height: 100%;
   overflow: hidden;
 }
